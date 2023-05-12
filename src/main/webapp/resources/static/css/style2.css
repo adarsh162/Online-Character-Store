@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+.social-links a{
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    background-color:#ffffff;
+    margin: 0 4px;
+    border-radius: 50%;
+    text-decoration: none;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    
+}
+.social-links a:hover{
+   -webkit-transform: scale(1.4);
+   transform: scale(1.4);
+}
+.fa.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  .fa-facebook {
+    color: #493b98;
+  }
+  .fa.fa-twitter {
+      color:rgb(93, 190, 246);
+  }
+  .fa.fa-linkedin {
+    color: #0976b4;
+}
